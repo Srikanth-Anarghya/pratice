@@ -1,0 +1,12 @@
+CREATE TABLE `branch` (
+  `Id` int NOT NULL,
+  `Name` varchar(45) DEFAULT NULL,
+  `Location` varchar(45) DEFAULT NULL,
+  `Region` varchar(45) DEFAULT NULL,
+  `Adress` varchar(200) DEFAULT NULL,
+  `Pin Code` int DEFAULT NULL,
+  `State` varchar(45) DEFAULT NULL,
+  `District` varchar(45) DEFAULT NULL,
+  `City` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
